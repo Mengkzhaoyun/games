@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 685 445" width="685" height="445" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- 外层白底圆角边框 -->
+  <rect x="2" y="2" width="681" height="441" rx="8" ry="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+
+  <!-- 灰色怪物行进通道 + 右侧正方形刷怪池（与百度原图同底图） -->
+  <path d="M 37,3 L 96,3 L 96,188 L 615,188 L 615,387 L 394,387 L 394,247 L 37,247 Z" fill="#a6a6a6"/>
+
+  <!-- 光之三妖精蓝色/红色虚线三角形（斯塔左上 - 桑尼右上 - 露娜A右下，罩住左拐角与水平路） -->
+  <g stroke="#2563eb" stroke-width="1.6" stroke-dasharray="4,2.5" fill="none">
+    <!-- 斯塔(130,115) -> 桑尼(430,155) -->
+    <line x1="149" y1="118" x2="411" y2="153"/>
+    <!-- 斯塔(130,115) -> 露娜A(330,320) -->
+    <line x1="143" y1="129" x2="316" y2="306"/>
+    <!-- 露娜A(330,320) -> 桑尼(430,155) -->
+    <line x1="340" y1="303" x2="420" y2="171"/>
+  </g>
+
+  <!-- L型拐角聚怪中心标记 -->
+  <g transform="translate(115, 217)">
+    <circle r="26" fill="#ef4444" fill-opacity="0.18" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="3,2"/>
+    <text y="4" text-anchor="middle" fill="#991b1b" font-size="10" font-weight="bold">★聚怪角</text>
+  </g>
+
+  <!-- ==================== 12个角色圆形站位图章 ==================== -->
+
+  <!-- 6. 斯塔 (130, 115) - 三妖精左上顶点 -->
+  <g transform="translate(130, 115)" filter="url(#shadow)">
+    <circle r="19" fill="#1e293b" stroke="#8b261d" stroke-width="2"/>
+    <circle r="16.5" fill="#1e3a8a" stroke="#38bdf8" stroke-width="1.5"/>
+    <text y="-2" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="bold">斯塔</text>
+    <text y="10" text-anchor="middle" fill="#7dd3fc" font-size="8">5★满培</text>
+  </g>
+
+  <!-- 7. 桑尼 (430, 155) - 三妖精右上顶点 -->
+  <g transform="translate(430, 155)" filter="url(#shadow)">
+    <circle r="19" fill="#1e293b" stroke="#8b261d" stroke-width="2"/>
+    <circle r="16.5" fill="#1e3a8a" stroke="#38bdf8" stroke-width="1.5"/>
+    <text y="-2" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="bold">桑尼</text>
+    <text y="10" text-anchor="middle" fill="#7dd3fc" font-size="8">5★满培</text>
+  </g>
+
+  <!-- 12. 蕾蒂 (122, 168) - 拐角上沿冰封 -->
+  <g transform="translate(122, 168)" filter="url(#shadow)">
+    <circle r="19" fill="#1e293b" stroke="#8b261d" stroke-width="2"/>
+    <circle r="16.5" fill="#1e3a8a" stroke="#38bdf8" stroke-width="1.5"/>
+    <text y="-2" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="bold">蕾蒂</text>
+    <text y="10" text-anchor="middle" fill="#7dd3fc" font-size="8">4~5★</text>
+  </g>
+
+  <!-- 11. 村纱水蜜 (168, 168) - 拐角上沿船锚眩晕 -->
+  <g transform="translate(168, 168)" filter="url(#shadow)">
+    <circle r="19" fill="#1e293b" stroke="#8b261d" stroke-width="2"/>
+    <circle r="16.5" fill="#581c87" stroke="#c084fc" stroke-width="1.5"/>
+    <text y="-2" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="bold">水蜜</text>
+    <text y="10" text-anchor="middle" fill="#e9d5ff" font-size="8">5★满培</text>
+  </g>
+
+  <!-- 8. 大妖精 (216, 168) - 连线恋恋A + 4太阳伞 -->
+  <g transform="translate(216, 168)" filter="url(#shadow)">
+    <circle r="19" fill="#1e293b" stroke="#8b261d" stroke-width="2"/>
+    <circle r="16.5" fill="#14532d" stroke="#fbbf24" stroke-width="1.5"/>
+    <text y="-2" text-anchor="middle" fill="#ffffff" font-size="10" font-weight="bold">大妖精</text>
+    <text y="10" text-anchor="middle" fill="#fde047" font-size="8">5★4伞</text>
+  </g>
+
+  <!-- 10. 上白泽慧音 (264, 168) - 加攻 + 传回起点 -->
+  <g transform="translate(264, 168)" filter="url(#shadow)">
+    <circle r="19" fill="#1e293b" stroke="#8b261d" stroke-width="2"/>
+    <circle r="16.5" fill="#581c87" stroke="#c084fc" stroke-width="1.5"/>
+    <text y="-2" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="bold">慧音</text>
+    <text y="10" text-anchor="middle" fill="#e9d5ff" font-size="8">5★4人形</text>
+  </g>
+
+  <!-- 1. 古明地恋A (122, 266) - 左下拐角贴路1号主C -->
+  <g transform="translate(122, 266)" filter="url(#shadow)">
+    <circle r="20" fill="#1e293b" stroke="#dc2626" stroke-width="2.2"/>
+    <circle r="17.5" fill="#b45309" stroke="#fde047" stroke-width="1.8"/>
+    <text y="-2" text-anchor="middle" fill="#ffffff" font-size="10.5" font-weight="bold">恋恋A</text>
+    <text y="10" text-anchor="middle" fill="#fef08a" font-size="8" font-weight="bold">5★满培</text>
+  </g>
+
+  <!-- 2. 古明地恋B (172, 266) - 左下拐角贴路2号主C -->
+  <g transform="translate(172, 266)" filter="url(#shadow)">
+    <circle r="20" fill="#1e293b" stroke="#dc2626" stroke-width="2.2"/>
+    <circle r="17.5" fill="#b45309" stroke="#fde047" stroke-width="1.8"/>
+    <text y="-2" text-anchor="middle" fill="#ffffff" font-size="10.5" font-weight="bold">恋恋B</text>
+    <text y="10" text-anchor="middle" fill="#fef08a" font-size="8" font-weight="bold">5★满培</text>
+  </g>
+
+  <!-- 3. 古明地觉 (147, 312) - 唯一易伤+3秒100%复刻结算核 -->
+  <g transform="translate(147, 312)" filter="url(#shadow)">
+    <circle r="19" fill="#1e293b" stroke="#8b261d" stroke-width="2"/>
+    <circle r="16.5" fill="#831843" stroke="#38bdf8" stroke-width="1.5"/>
+    <text y="-2" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="bold">觉</text>
+    <text y="10" text-anchor="middle" fill="#f9a8d4" font-size="8">5★4楼观</text>
+  </g>
+
+  <!-- 9. 十六夜咲夜 (222, 286) - 居中刷新小觉与双露娜 + 时停拐角 -->
+  <g transform="translate(222, 286)" filter="url(#shadow)">
+    <circle r="19" fill="#1e293b" stroke="#8b261d" stroke-width="2"/>
+    <circle r="16.5" fill="#581c87" stroke="#c084fc" stroke-width="1.5"/>
+    <text y="-2" text-anchor="middle" fill="#ffffff" font-size="10" font-weight="bold">十六夜</text>
+    <text y="10" text-anchor="middle" fill="#e9d5ff" font-size="8">5★4秘石</text>
+  </g>
+
+  <!-- 5. 露娜B (276, 304) - 共享三角形2号法核副C -->
+  <g transform="translate(276, 304)" filter="url(#shadow)">
+    <circle r="19" fill="#1e293b" stroke="#8b261d" stroke-width="2"/>
+    <circle r="16.5" fill="#1e3a8a" stroke="#38bdf8" stroke-width="1.5"/>
+    <text y="-2" text-anchor="middle" fill="#ffffff" font-size="10.5" font-weight="bold">露娜B</text>
+    <text y="10" text-anchor="middle" fill="#7dd3fc" font-size="8">5★共享</text>
+  </g>
+
+  <!-- 4. 露娜A (330, 320) - 三妖精右下顶点1号法核副C -->
+  <g transform="translate(330, 320)" filter="url(#shadow)">
+    <circle r="19" fill="#1e293b" stroke="#8b261d" stroke-width="2"/>
+    <circle r="16.5" fill="#1e3a8a" stroke="#38bdf8" stroke-width="1.5"/>
+    <text y="-2" text-anchor="middle" fill="#ffffff" font-size="10.5" font-weight="bold">露娜A</text>
+    <text y="10" text-anchor="middle" fill="#7dd3fc" font-size="8">5★连线</text>
+  </g>
+</svg>
