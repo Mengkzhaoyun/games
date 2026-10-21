@@ -4,12 +4,12 @@
 
 ## 1. 游戏本体
 
-| 项 | 值 |
-| --- | --- |
-| 安装目录 | `C:\Program Files (x86)\Steam\steamapps\common\dota 2 beta` |
-| Steam 库 | `C:\Program Files (x86)\Steam\steamapps` |
-| Steam AppID | `570` |
-| 运行文件 | `C:\Program Files (x86)\Steam\steamapps\common\dota 2 beta\game\bin\win64\dota2.exe` |
+| 项          | 值                                                                                   |
+| ----------- | ------------------------------------------------------------------------------------ |
+| 安装目录    | `C:\Program Files (x86)\Steam\steamapps\common\dota 2 beta`                          |
+| Steam 库    | `C:\Program Files (x86)\Steam\steamapps`                                             |
+| Steam AppID | `570`                                                                                |
+| 运行文件    | `C:\Program Files (x86)\Steam\steamapps\common\dota 2 beta\game\bin\win64\dota2.exe` |
 
 常用子目录：
 
